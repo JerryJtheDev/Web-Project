@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jerry Cutz - Contact Page</title>
+    <link rel="stylesheet" href="../CSS/contact.css">
+</head>
+<body>
+    <div class="loader" id="preloader">
+        <div class="dot-spinner">
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+            <div class="dot-spinner__dot"></div>
+        </div>
+    </div>
+    <nav class="navbar">
+        <span>Jerry Cutz</span>
+        <ul class="nav-menu">
+            <li><a href="../HTML/index.html">Home</a></li>
+            <li><a href="../HTML/services.html">Services</a></li>
+            <li><a href="../HTML/booking.html"><img src="../media/svgs/cart.png" alt=""></a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+    <!-- End of Nav Bar -->
+
+    <div class="contact-header">
+        <h1>Contact</h1><hr>
+    </div>
+
+    <div class="contact">
+        <div class="contact-section">
+            <h1>Get in touch!</h1>
+            <p>Use the form below to drop us an email. Old fashioned phone calls work as well - <br><span>09012971693.</span></p>
+
+            <form action="">
+                <label for="Name">Name <span>(required)</span></label><br>
+
+                <input type="text" id="Name" name="Name"><br>
+
+                <label for="email">Email <span>(required)</span></label><br>
+
+                <input type="text" id="email" name="email"><br>
+
+                <label for="message">Message <span>(required)</span></label><br>
+
+                <textarea name="" id="message" rows="6" cols="14"></textarea><br>
+
+                <button id="form-button" type="submit">Send</button>
+            </form>
+            
+
+        </div>  
+    </div>
+
+    <footer>
+        <div class="media">
+            <a href="https://www.instagram.com/jerryjnr385?igsh=aWsxbjBtYnozam1i" target = _blank><img class="social-media" src="../media/svgs/instagram.png" alt=""></a>
+            <a href="https://x.com/jerryjnr385?t=SkKeW-O48mR12HfvdVsEBg&s=09" target = _blank><img class="social-media" src="../media/svgs/twitter.png" alt=""></a>
+        </div>
+
+        <h1 class="address-header"><img class="footer-address" src="../media/svgs/location1.png" alt="">No. 11 Holland Street, Abuloma, Port Harcourt, Rivers State</h1>
+        <h1 class="number-header"><img class="footer-number" src="../media/svgs/smartphone1.png" alt="">09012971693</h1>
+
+      </footer>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="../JS/contact.js"></script>
+</body>
+</html>
